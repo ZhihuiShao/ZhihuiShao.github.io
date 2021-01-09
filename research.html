@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="shortcut icon" href="UTA_A-logo.ico">
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Research</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Menu</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="research.html" class="current">Research</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="skill.html">Skills</a></div>
+<div class="menu-item"><a href="bio.html">Biography</a></div>
+
+</td>
+<td id="layout-content">
+<!-- <p><img src="word_cloud.jpg" alt="alt text" style="float: middle" width="1100"></p> -->
+<h2>Experience</h2>
+<h3>Amazon Applied Scientist Internship</h3>
+<h4>Topic 1: Analyze Amazon Day customer behavior and explore machine learning opportunity (2020 Summer)</h4>
+<ul>
+  <li>Amazon Day Delivery Program;</li>
+  <li>Data collection and customer behavior analysis: SQL and spark;</li>
+  <li>Customer acquisition model: Random Forest and XGBoost;</li>
+  <li>Evaluation method: ROC, AUC, Precision-recall, feature importance;</li>
+</ul>
+<h4>Topic 2: Amazon Day customer behavior and explore machine learning opportunity (2019 Summer)</h4>
+<ul>
+  <li>Data collection and data analysis with SQL and PySpark;</li>
+  <li>Customer acquisition model is implemented on Random Forest and XGBoost;</li>
+</ul>
+
+<h3>Teaching Assistant at UC, Riverside</h3>
+<!-- <h4></h4> -->
+<ul>
+  <li>CS 010, CS012, CS014 (Topic: Data Structures and Algorithms)</li>
+  <li>CS 005, CS006 (Topic: Introduction to Computer Science)</li>
+</ul>
+
+
+<h2>Course Projects</h2>
+<h3>Web Developer</h3>
+<h4>Topic: Design of search engine for Wikipedia (demo: <a href="http://3.87.174.210/">WiKiSearch</a>)</h4>
+<ul>
+  <li>Craw web pages: multiple threads to increase speed; noise removal to optimize the database storage;</li>
+  <li>Index web pages: Hadoop MapReduce for higher throughput of index process;</li>
+  <li>Score algorithm: BM25, Proximity and Page-Rank; User Interface design: MVC framework on Node.js;</li>
+  <li>Database: SQLITE to store web pages, MongoDB to store index;</li>
+</ul>
+<h3>Machine Learning and Data Mining</h3>
+<h4>Topic: Label prompt for Yelp image</h4>
+<ul>
+  <li>Collect images and labels from yelp website.</li>
+  <li>Train classifier with k-NN, SVM and Artificial Neural Network.</li>
+  <li>Optimize hyperparameter of classifier using cross validation.</li>
+</ul>
+
+
+<h2>Research</h2>
+<h3>Non-linear Computing Lab, UC Riverside</h3>
+<h4>Topic: Machine learning-assisted resource management in computing systems</h4>
+<p>
+  The widespread adoption of Internet of Things and latency-critical applications has fueled the burgeoning development of edge colocation data centers (a.k.a., edge colocation) - small-scale data centers in distributed locations. Due to limited resources and demand for low latency, we conduct several explorations for resource management in edge computing systems using machine learning. We study resource management from the perspective of both data center operator and users (attacker).</br></br>
+  Firstly, we propose battery-assisted power management in edge data centers considering the computing performance and thermal behavior under significant workload fluctuations. In particular, the workload fluctuations allow the battery to be frequently recharged and made available for temporary capacity boosts. But, using batteries can overload the data center cooling system which is designed with a matching capacity of the power system. We design a novel power management solution, DeepPM, that exploits the UPS battery and cold air inside the edge data center as energy storage to boost performance. DeepPM uses deep reinforcement learning (DRL) to learn the data center thermal behavior online in a model-free manner and uses it on-the-fly to determine power allocation for optimum latency performance without overheating the data center.</br></br>
+  Next, we study the vulnerability and thermal attack opportunities from the mismatch between power load and cooling load in edge colocation data centers. We discover that the sharing of cooling systems also exposes edge colocations' potential vulnerabilities to cooling load injection attacks (called thermal attacks) by an attacker which, if left at large, may create thermal emergencies and even trigger system outages. Importantly, thermal attacks can be launched by leveraging the emerging architecture of built-in batteries integrated with servers that can conceal the attacker's actual server power (or cooling load). We consider both one-shot attacks (which aim at creating system outages) repeated attacks (which aim at causing frequent thermal emergencies). For repeated attacks, we present a foresighted attack strategy which, using reinforcement learning, learns on the fly a good timing for attacks based on the battery state and benign tenants' load.
+</p>
+
+<h4>Topic: Calibration and accuracy monitoring for deep neural networks on operational dataset</h4>
+<ul>
+  <li>Increasing trustworthiness of deep neural networks via accuracy monitoring.</br></li>
+  <li>Calibrating deep neural network classifiers on out-of-distribution datasets.</br></li>
+</ul>
+
+
+
+</td>
+</tr>
+</table>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132690506-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-132690506-1');
+</script>
+</body>
+</html>
